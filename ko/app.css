@@ -1,0 +1,75 @@
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+#test {
+  height: 80px;
+}
+
+.test-container {
+  float: left;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.test-button {
+  float: left;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 22px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: blue;
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cooldown-bar {
+  margin: 22px 4px;
+}
+.cooldown-bar-button {
+  position: relative;
+  color: rgb(204, 204, 204);
+  float: left;
+  font-size: 14px;
+  width: 68px;
+  height: 68px;
+  line-height: 68px;
+  background-repeat: no-repeat;
+  background-size: 68px 68px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.cooldown-bar-button.disabled {
+  cursor: default;
+}
+.cooldown-bar-button div {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  line-height: 68px;
+  color: rgb(239, 244, 245);
+  font-size: 32px;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(36, 33, 33, 1);
+  text-align: center;
+  vertical-align: middle;
+}
+.cooldown-bar-button.disabled .mask {
+  background-color: rgba(127, 127, 127, 0.5);
+}
