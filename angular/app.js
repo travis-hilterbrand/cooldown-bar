@@ -1,9 +1,16 @@
+function CooldownButton(image, cooldown) {
+  this.image = image;
+  this.cooldown = cooldown;
+  this.enabled = true;
+  this.timeUntilReady = 0;
+}
+
 var App = angular.module('App', []);
 App.controller('CooldownBarController', function($scope) {
   $scope.buttons = [
-    {image:'spell_nature_riptide.jpg',cooldown:1,enabled:true},
-    {image:'spell_shaman_earthquake.jpg',cooldown:2,enabled:true},
-    {image:'spell_shaman_unleashweapon_flame.jpg',cooldown:3,enabled:true},
+    new CooldownButton('spell_nature_riptide.jpg',1),
+    new CooldownButton('spell_shaman_earthquake.jpg',2),
+    new CooldownButton('spell_shaman_unleashweapon_flame.jpg',3)
   ];
   $scope.onClick = function(button) {
     if (button.enabled) {
