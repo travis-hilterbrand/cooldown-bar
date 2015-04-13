@@ -40,3 +40,9 @@ body {
 .cooldown-bar-button.disabled .mask {
   background-color: rgba(127, 127, 127, 0.5);
 }
+.cooldown-bar-button .text {
+  display: none;
+}
+.cooldown-bar-button.disabled .text {
+  display: block;
+}
