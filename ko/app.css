@@ -2,39 +2,6 @@ body {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
-#test {
-  height: 80px;
-}
-
-.test-container {
-  float: left;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-}
-.test-button {
-  float: left;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  font-size: 22px;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  background-color: white;
-  color: blue;
-  border: 2px solid black;
-  border-radius: 8px;
-  cursor: pointer;
-  outline: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
 .cooldown-bar {
   margin: 22px 4px;
 }

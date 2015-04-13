@@ -28,17 +28,8 @@ function CooldownBarViewModel() {
     new CooldownButton('spell_shaman_unleashweapon_flame.jpg', 3)
   ]);
 }
-function TestViewModel() {
-  this.numberOfClicks = ko.observable(0);
-
-  this.onClick = function() {
-    this.numberOfClicks(this.numberOfClicks() + 1);
-  };
-}
 
 $(document).ready(function() {
   var viewModel = new CooldownBarViewModel();
   ko.applyBindings(viewModel, $('.cooldown-bar').get(0));
-
-  ko.applyBindings(new TestViewModel(), document.getElementById('test'));
 });

@@ -11,12 +11,6 @@
   <script src="app.js" type="text/javascript"></script>
 </head>
 <body>
-  <div id="test">
-    <div class="test-container" data-bind="text: numberOfClicks"></div>
-    <div class="test-button" data-bind="click:onClick">C</div>
-    <div class="test-button" data-bind="click:onClick">D</div>
-  </div>
-
   <div class="cooldown-bar" data-bind="foreach: buttons">
     <div class="cooldown-bar-button" data-bind="css: {disabled: enabled() === false}, style: { backgroundImage: imageCss },click: onClick">
       <div class="mask"></div>
