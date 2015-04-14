@@ -6,6 +6,7 @@ Cooldown bars are commonly used in games to limit the numbers of actions that pl
 
 * Angular
 * Knockout
+* React
 
 ## Art
 Art is from World of Warcraft
