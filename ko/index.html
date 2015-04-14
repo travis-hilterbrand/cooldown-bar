@@ -14,7 +14,7 @@
   <div class="cooldown-bar" data-bind="foreach: buttons">
     <div class="cooldown-bar-button" data-bind="css: {disabled: enabled() === false}, style: { backgroundImage: imageCss },click: onClick">
       <div class="mask"></div>
-      <div data-bind="visible: !enabled(),text: timeUntilReady"></div>
+      <div class="text" data-bind="text: timeUntilReady"></div>
     </div>
   </div>
 

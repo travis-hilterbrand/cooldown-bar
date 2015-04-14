@@ -15,7 +15,7 @@
     <div ng-repeat="button in buttons">
       <div class="cooldown-bar-button" ng-class="{ disabled: button.enabled == false }" style="background-image: url('../images/{{button.image}}')" ng-click="onClick(button)">
         <div class="mask"></div>
-        <div ng-show="button.enabled === false">{{button.timeUntilReady}}</div>
+        <div class="text">{{button.timeUntilReady}}</div>
       </div>
     </div>
   </div>
