@@ -5,6 +5,7 @@ Cooldown bars are commonly used in games to limit the numbers of actions that pl
 ## Frameworks
 
 * Angular
+* Backbone / Marionette
 * Knockout
 * React
 
